@@ -1,50 +1,61 @@
-# 👋 Hola, soy Juan David Rosero Reyes
+# Portafolio personal · Juan David Rosero Reyes
 
-🌟 **Desarrollador Front-End especializado en la creación de páginas web eficientes**  
-📍 **Cali, Valle del Cauca, Colombia**
+Sitio web personal donde presento mi perfil, formación y proyectos. Está construido con HTML, CSS y JavaScript puro, con diseño **Mobile First**, y se publica automáticamente con **GitHub Pages** en la raíz de mi dominio de GitHub.
 
-## 📝 Sobre mí
-Desarrollador Front-End especializado en la creación de páginas web eficientes, con sólidos conocimientos en **HTML**, **CSS** y **JavaScript**. Mi enfoque en el aprendizaje continuo y la implementación de nuevas tecnologías me permite aportar ideas innovadoras y mejorar constantemente en cada proyecto.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+[![GitHub Pages](https://img.shields.io/github/deployments/juan-roserodev/juan-roserodev.github.io/github-pages?label=GitHub%20Pages&logo=githubpages)](https://juan-roserodev.github.io/)
 
-Estoy comprometido con la entrega de soluciones creativas y efectivas, y valoro el trabajo en equipo como clave para alcanzar resultados de alta calidad. Siempre abierto a recibir feedback, busco colaborar de manera proactiva para superar las expectativas en cada iniciativa.
+### 🔗 [juan-roserodev.github.io](https://juan-roserodev.github.io/)
 
-## 🎓 Educación
-- **Tecnólogo en Análisis y Desarrollo de Sistemas de Información**  
-  *Institución: SENA, Colombia*
-  
-- Actualmente estudiando en el programa ONE de Oracle con especialización en Front-End.
+![Vista del portafolio](docs/captura.png)
 
-## 💼 Experiencia Laboral
-- **Aprendiz** en **Tecnoquímicas - (Tecnofar)**  
-  *Duración: 6 meses*  
-  Desarrollé habilidades en análisis y desarrollo de sistemas de información, trabajando en proyectos reales.
+---
 
-## 🚀 Habilidades
-- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+## ✨ Secciones
 
-## 🌟 Proyectos Destacados
-- [Challenge Text Encrypter](https://github.com/juan-roserodev/Challenge-Text-Encryptor)  
-  Un encriptador de texto que transforma mensajes de acuerdo a ciertas reglas. Implementado con JavaScript, HTML y CSS. Permite encriptar y desencriptar mensajes, con una interfaz simple y responsive.
+- **Presentación** con enlaces a GitHub, LinkedIn y descarga del CV.
+- **Sobre mí**, **habilidades** y **hobbies**.
+- **Formación académica**: SENA, Oracle Next Education (ONE) y aprendizaje autodidacta.
+- **Proyectos** con enlace al repositorio y a la demo de cada uno.
+- **Formulario de contacto** con validación en el navegador y envío mediante FormSubmit.
 
-## 📄 Curriculum Vitae
+## 🛠️ Stack tecnológico
 
-Puedes descargar mi [Curriculum Vitae en PDF](https://drive.google.com/drive/folders/1IpaOJH8b3_05D22tpuG5HFfOZCgcGUIJ?usp=sharing) para más detalles sobre mi experiencia y habilidades.
+- **HTML5** semántico
+- **CSS3**: Flexbox, media queries, diseño Mobile First
+- **JavaScript (ES6)**: validación del formulario de contacto
+- **Font Awesome** para íconos y **SweetAlert2** para mensajes
+- **GitHub Pages** para el despliegue continuo
 
-## 📜 Certificaciones
-- [Certificaciones de Tecnólogo y Programa ONE](https://drive.google.com/drive/folders/1SqxxrB350huVk0isBepBQ6G2QpVKNEBf?usp=sharing)  
-  Incluye mi certificación como Tecnólogo en Análisis y Desarrollo de Sistemas de Información, y los cursos completados en el programa ONE de Oracle.
+## 🗂️ Estructura
 
-## 🌐 Redes Sociales
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-reyes-dev)
-- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/david_reyes845)
-- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/David_Reyes160)
+```
+juan-roserodev.github.io/
+├── index.html
+├── Css/style.css
+├── JavaScript/functions.js   # Validación del formulario de contacto
+├── img/                      # Fotos, logos y miniaturas de proyectos
+└── Resources/                # Currículum en PDF
+```
 
-## 📧 Contacto
-- **Email:** [Juanda3194236082@gmail.com](mailto:Juanda3194236082@gmail.com)
-- **Teléfono:** 3163276301
+## 🚀 Uso local
 
-## 🎯 Objetivos
-Mi objetivo es aplicar mis habilidades en desarrollo Front-End para contribuir al éxito de los proyectos en los que participo. Estoy comprometido con la entrega de soluciones eficientes y creativas, y siempre busco mejorar la calidad del trabajo en equipo para alcanzar resultados de alto impacto. Listo para asumir nuevos desafíos y aportar valor desde el primer día.
+```bash
+git clone https://github.com/juan-roserodev/juan-roserodev.github.io.git
+```
+
+Abre `index.html` en el navegador o usa la extensión *Live Server* de VS Code. Cualquier cambio que se suba a la rama `main` se publica automáticamente en GitHub Pages.
+
+## ✅ Buenas prácticas aplicadas
+
+- Rutas relativas para imágenes y recursos, de modo que el sitio funciona igual en local y en producción.
+- Validación de los campos del formulario antes de habilitar el botón de envío.
+- Enlaces externos abiertos en una pestaña nueva.
+
+## 📬 Contacto
+
+- **Email:** [juan.rosero21@hotmail.com](mailto:juan.rosero21@hotmail.com) · [juan.rosero.dev@gmail.com](mailto:juan.rosero.dev@gmail.com)
+- **LinkedIn:** [linkedin.com/in/david-reyes-dev](https://www.linkedin.com/in/david-reyes-dev)
+- **GitHub:** [@juan-roserodev](https://github.com/juan-roserodev)
