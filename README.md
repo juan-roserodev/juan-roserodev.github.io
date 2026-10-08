@@ -26,7 +26,7 @@ Estoy comprometido con la entrega de soluciones creativas y efectivas, y valoro 
 - ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
 ## 🌟 Proyectos Destacados
-- [Challenge Text Encrypter](https://github.com/Juanda845/Challenge-Text-Encryptor)  
+- [Challenge Text Encrypter](https://github.com/juan-roserodev/Challenge-Text-Encryptor)  
   Un encriptador de texto que transforma mensajes de acuerdo a ciertas reglas. Implementado con JavaScript, HTML y CSS. Permite encriptar y desencriptar mensajes, con una interfaz simple y responsive.
 
 ## 📄 Curriculum Vitae
