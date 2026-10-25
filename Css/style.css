@@ -1023,3 +1023,64 @@ i.fa-solid.fa-arrow-up-right-from-square.fa-sm {
 }
 
 /* -------- Fin de Desarrollo desktop -------- */
+/* -------- Ajustes de escritorio para pantallas medianas -------- */
+/* El diseño de escritorio usa anchos fijos de 1136 px; estos límites evitan el desbordamiento horizontal
+   entre 992 px y 1199 px sin cambiar cómo se ve en pantallas grandes. */
+@media (min-width: 992px) {
+    .menu-link,
+    .title-cabecera {
+        white-space: nowrap;
+    }
+
+    .container-presentacion-informacion,
+    .sobre-mi,
+    .text-sobre-mi,
+    .cards-formacion-academica,
+    .experiencia-profesional,
+    .miniatura-experiencia-profesional,
+    .container-skills-and-hobbies ul.lista-skills,
+    .container-skills-and-hobbies ul.lista-hobbies {
+        max-width: 100%;
+    }
+
+    .miniatura-experiencia-profesional {
+        height: auto;
+        aspect-ratio: 752 / 406;
+    }
+
+    .container-card-imagen-experiencia-profesional {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .container-skills-and-hobbies ul.lista-hobbies {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu-lista {
+        gap: 20px;
+    }
+
+    .menu-item {
+        font-size: 16px;
+    }
+
+    /* Sin la ilustración, el formulario de contacto cabe completo */
+    .miniatura-contacto {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    /* Tres tarjetas de formación caben en fila con tarjetas más angostas */
+    .container-card-imagen-formacion-academica,
+    .text-container {
+        width: 280px;
+    }
+
+    .container-card-imagen-formacion-academica {
+        height: 220px;
+    }
+}
