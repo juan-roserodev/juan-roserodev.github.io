@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan David Rosero Reyes | Desarrollador Web</title>
-    <meta name="description" content="Portafolio de Juan David Rosero Reyes, desarrollador web junior: proyectos en HTML, CSS, JavaScript, PHP y SQL.">
+    <title>Juan David Rosero Reyes | Desarrollador Web Full Stack</title>
+    <meta name="description" content="Portafolio de Juan David Rosero Reyes, desarrollador web full stack: PHP, Laravel, JavaScript, SQL y pruebas automatizadas con PHPUnit.">
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -17,14 +17,14 @@
     <header class="container-cabecera">
         <div class="container-logo-title">
             <img src="./img/Logo.png" alt="Logo" class="logo-cabecera">
-            <span class="title-cabecera">David Rosero | Desarrollador Web</span>
+            <span class="title-cabecera">Juan David Rosero | Desarrollador Web</span>
         </div>
         <!-- Menú de navegación con enlaces a diferentes secciones del sitio -->
         <nav class="navbar">
             <ul class="menu-lista">
                 <li class="menu-item"><a href="#sobre_mi" class="menu-link">Sobre mí</a></li>
+                <li class="menu-item"><a href="#experiencia" class="menu-link">Experiencia</a></li>
                 <li class="menu-item"><a href="#skill" class="menu-link">Skills</a></li>
-                <li class="menu-item"><a href="#hobbie" class="menu-link">Hobbies</a></li>
                 <li class="menu-item"><a href="#formaciones" class="menu-link">Formación</a></li>
                 <li class="menu-item"><a href="#proyectos" class="menu-link">Proyectos</a></li>
                 <li class="menu-item"><a href="mailto:juan.rosero21@hotmail.com"
@@ -41,9 +41,9 @@
                 <!-- Introducción breve sobre el desarrollador -->
                 <h1 class="title-presentacion">Hola, soy Juan David Rosero Reyes. No soy un robot, pero sí desarrollador web.
                 </h1>
-                <p class="text-presentacion">Desarrollador web junior con base sólida en SQL y soporte de aplicaciones.
-                    Hoy participo en la modernización de interfaces de aplicativos PHP/Laravel y sigo fortaleciendo
-                    JavaScript, React y las buenas prácticas de desarrollo.</p>
+                <p class="text-presentacion">Desarrollador web full stack enfocado en Laravel, interfaces y pruebas
+                    de software. Hoy lidero la migración de las interfaces de un sistema institucional del SENA a
+                    Laravel 13, con Blade, Tailwind CSS y pruebas automatizadas con PHPUnit.</p>
                 <!-- Enlaces a redes sociales y currículum -->
                 <ul class="lista-presentacion-redes-sociales">
                     <li class="item-presentacion-redes-sociales"><a href="https://github.com/juan-roserodev" target="_blank"
@@ -71,17 +71,59 @@
             <div class="sobre-mi">
                 <h1 class="title-sobre-mi">Sobre mí</h1>
                 <p class="text-sobre-mi">Soy Tecnólogo en Análisis y Desarrollo de Sistemas de Información (SENA) con
-                    formación Frontend en el programa Oracle Next Education. Vengo del soporte de aplicaciones
+                    formación Front-end en el programa Oracle Next Education. Vengo del soporte de aplicaciones
                     Nivel 2, donde resolví incidentes en producción con consultas SQL y control de transacciones,
-                    y hoy trabajo como programador junior en la Fábrica de Software del SENA, apoyando la
-                    modernización de interfaces gráficas con April UI en aplicativos PHP/Laravel.
-                    <br><br> Estoy en un proceso activo de aprendizaje: fortalezco JavaScript, PHP y Laravel en el
-                    día a día, y exploro React y Python en proyectos personales. Valoro el trabajo en equipo, recibo
-                    el feedback como una oportunidad de mejorar y me gusta entender a fondo cómo funciona lo que
-                    construyo.</p>
+                    y hoy trabajo como programador full stack junior en la Fábrica de Software del SENA, migrando
+                    las interfaces de un sistema institucional a Laravel 13 con April UI y Tailwind CSS.
+                    <br><br> Mi foco es especializarme en Laravel: escribo pruebas automatizadas con PHPUnit,
+                    trabajo con Git, pull requests y code review, y documento cada cambio. Valoro el trabajo en
+                    equipo, recibo el feedback como una oportunidad de mejorar y me gusta entender a fondo cómo
+                    funciona lo que construyo.</p>
                 <!-- Firma digital para personalizar la sección -->
                 <img src="./img/Firma-digital.png" alt="Firma" class="firma-sobre-mi">
             </div>
+        </section>
+
+        <!-- Sección de experiencia laboral -->
+        <section id="experiencia" class="container-experiencia">
+            <h1 class="title-experiencia">Experiencia</h1>
+            <ol class="lista-experiencia">
+                <li class="item-experiencia">
+                    <h3 class="cargo-experiencia">Programador Full Stack Junior</h3>
+                    <p class="empresa-experiencia">SENA · Fábrica de Software del CEAI</p>
+                    <p class="fecha-experiencia">Ago 2026 – Presente</p>
+                    <ul class="logros-experiencia">
+                        <li>Lidero la migración de las interfaces de un sistema institucional de Laravel 5 a Laravel 13,
+                            con Blade, April UI y Tailwind CSS.</li>
+                        <li>Escribí y adapté 33 pruebas automatizadas con PHPUnit, y guío a un aprendiz en un middleware
+                            de permisos por rol cubierto con 26 pruebas más.</li>
+                        <li>Trabajo con Git (rama por tarea, pull requests y code review) y gestiono tareas en Taiga
+                            dentro de sprints Scrum.</li>
+                    </ul>
+                </li>
+                <li class="item-experiencia">
+                    <h3 class="cargo-experiencia">Ingeniero de Soporte de Aplicaciones N2</h3>
+                    <p class="empresa-experiencia">Infomedia Service S.A. · Proyecto Recamier</p>
+                    <p class="fecha-experiencia">Nov 2024 – Jul 2026</p>
+                    <ul class="logros-experiencia">
+                        <li>Resolví incidentes de aplicaciones web y de escritorio con consultas SQL multitabla sobre
+                            IBM Informix.</li>
+                        <li>Atendí entre 50 y 60 tickets N2 al mes cumpliendo los ANS, con correcciones de datos en
+                            producción bajo control transaccional.</li>
+                        <li>Desde marzo de 2026, soporte a usuarios internos en la mesa de ayuda (Active Directory y
+                            HubSpot).</li>
+                    </ul>
+                </li>
+                <li class="item-experiencia">
+                    <h3 class="cargo-experiencia">Analista de Información (Practicante)</h3>
+                    <p class="empresa-experiencia">Tecnoquímicas</p>
+                    <p class="fecha-experiencia">Oct 2023 – Abr 2024</p>
+                    <ul class="logros-experiencia">
+                        <li>Diseñé formatos digitales de control de piso integrados a bases de datos Oracle, con
+                            formularios y tableros de seguimiento para la planta.</li>
+                    </ul>
+                </li>
+            </ol>
         </section>
 
         <!-- Sección de habilidades (skills) y hobbies -->
@@ -90,14 +132,16 @@
             <div class="skills">
                 <h1 class="title-skills">Skills</h1>
                 <ul class="lista-skills">
-                    <li class="item-skills"><i class="fa-brands fa-html5 fa-2xl"></i> Html 5</li>
-                    <li class="item-skills"><i class="fa-brands fa-css3 fa-2xl"></i> CSS</li>
-                    <li class="item-skills"><i class="fa-brands fa-js fa-2xl"></i> JavaScript</li>
-                    <li class="item-skills"><i class="fa-brands fa-react fa-2xl"></i> React (aprendiendo)</li>
-                    <li class="item-skills"><i class="fa-solid fa-database fa-2xl"></i> SQL</li>
                     <li class="item-skills"><i class="fa-brands fa-php fa-2xl"></i> PHP</li>
                     <li class="item-skills"><i class="fa-brands fa-laravel fa-2xl"></i> Laravel</li>
-                    <li class="item-skills"><i class="fa-brands fa-github fa-2xl"></i> Github</li>
+                    <li class="item-skills"><i class="fa-solid fa-vial fa-2xl"></i> PHPUnit</li>
+                    <li class="item-skills"><i class="fa-solid fa-database fa-2xl"></i> SQL y MySQL</li>
+                    <li class="item-skills"><i class="fa-brands fa-js fa-2xl"></i> JavaScript</li>
+                    <li class="item-skills"><i class="fa-brands fa-html5 fa-2xl"></i> HTML5</li>
+                    <li class="item-skills"><i class="fa-brands fa-css3 fa-2xl"></i> CSS3</li>
+                    <li class="item-skills"><i class="fa-solid fa-wind fa-2xl"></i> Tailwind CSS</li>
+                    <li class="item-skills"><i class="fa-brands fa-git-alt fa-2xl"></i> Git y GitHub</li>
+                    <li class="item-skills"><i class="fa-brands fa-docker fa-2xl"></i> Docker</li>
                 </ul>
             </div>
 
@@ -166,16 +210,33 @@
             <h1 class="title-experiencia-profesional">Proyectos</h1>
 
             <!-- Contenedor para cada tarjeta de proyectos -->
+            <!-- Tarjeta de proyecto: Ecommerce Amantti -->
             <div class="experiencia-profesional">
-                <!-- Tarjeta de proyecto: Mi primera página web -->
                 <div class="container-card-imagen-experiencia-profesional">
-                    <img src="./img/Miniatura-My-first-FC-Barcelona-website.png" alt="miniatura profesional"
+                    <img src="./img/Miniatura-Proyect-Amantti-Ecommerce.png" alt="Vista de la tienda virtual Amantti"
+                        class="miniatura-experiencia-profesional">
+                </div>
+                <div class="contenido-container-experiencia-profesional">
+                    <h4 class="title-experiencia-profesional-proyecto">Ecommerce Amantti</h4>
+                    <span class="text-experiencia-profesional">Proyecto académico en equipo (SENA): tienda virtual en PHP y MySQL con panel administrativo</span>
+                    <div class="botones-container-experiencia-profesional">
+                        <a href="https://github.com/juan-roserodev/amantti-ecommerce-php" target="_blank"
+                            class="boton-repositorio-experiencia-profesional">Repositorio</a>
+                        <a href="https://github.com/juan-roserodev/amantti-ecommerce-php/blob/main/Proyect-Amantti/Videos/Video-Resultado-Final.mp4" target="_blank"
+                            class="boton-pagina-experiencia-profesional">Ver video</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de proyecto: Mi primera página web -->
+            <div class="experiencia-profesional">
+                <div class="container-card-imagen-experiencia-profesional">
+                    <img src="./img/Miniatura-My-first-FC-Barcelona-website.png" alt="Vista de la landing page del FC Barcelona"
                         class="miniatura-experiencia-profesional">
                 </div>
                 <div class="contenido-container-experiencia-profesional">
                     <h4 class="title-experiencia-profesional-proyecto">Landing page FC Barcelona</h4>
-                    <span class="text-experiencia-profesional">Mi primer sitio: responsive, con slider y preguntas
-                        frecuentes en JavaScript</span>
+                    <span class="text-experiencia-profesional">Mi primer sitio: responsive, con slider y preguntas frecuentes en JavaScript</span>
                     <div class="botones-container-experiencia-profesional">
                         <a href="https://github.com/juan-roserodev/fc-barcelona-landing-page" target="_blank"
                             class="boton-repositorio-experiencia-profesional">Repositorio</a>
@@ -188,7 +249,7 @@
             <!-- Tarjeta de proyecto: Encriptador de texto -->
             <div class="experiencia-profesional">
                 <div class="container-card-imagen-experiencia-profesional">
-                    <img src="./img/Miniatura-Challenge-Text-Encryptor.png" alt="miniatura profesional"
+                    <img src="./img/Miniatura-Challenge-Text-Encryptor.png" alt="Vista del encriptador de texto"
                         class="miniatura-experiencia-profesional">
                 </div>
                 <div class="contenido-container-experiencia-profesional">
@@ -199,42 +260,6 @@
                             class="boton-repositorio-experiencia-profesional">Repositorio</a>
                         <a href="https://juan-roserodev.github.io/text-encryptor-js/" target="_blank"
                             class="boton-pagina-experiencia-profesional">Ver demo</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tarjeta de proyecto: AluraGeek -->
-            <div class="experiencia-profesional">
-                <div class="container-card-imagen-experiencia-profesional">
-                    <img src="./img/Miniatura-AluraGeek.png" alt="miniatura profesional"
-                        class="miniatura-experiencia-profesional">
-                </div>
-                <div class="contenido-container-experiencia-profesional">
-                    <h4 class="title-experiencia-profesional-proyecto">AluraGeek</h4>
-                    <span class="text-experiencia-profesional">Catálogo con CRUD sobre una API REST (JSON Server)</span>
-                    <div class="botones-container-experiencia-profesional">
-                        <a href="https://github.com/juan-roserodev/alurageek-product-crud" target="_blank"
-                            class="boton-repositorio-experiencia-profesional">Repositorio</a>
-                        <a href="https://juan-roserodev.github.io/alurageek-product-crud/" target="_blank"
-                            class="boton-pagina-experiencia-profesional">Ver demo</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tarjeta de proyecto: Ecommerce Amantti -->
-            <div class="experiencia-profesional">
-                <div class="container-card-imagen-experiencia-profesional">
-                    <img src="./img/Miniatura-Proyect-Amantti-Ecommerce.png" alt="miniatura profesional"
-                        class="miniatura-experiencia-profesional">
-                </div>
-                <div class="contenido-container-experiencia-profesional">
-                    <h4 class="title-experiencia-profesional-proyecto">Ecommerce Amantti</h4>
-                    <span class="text-experiencia-profesional">E-commerce en PHP y MySQL con panel administrativo</span>
-                    <div class="botones-container-experiencia-profesional">
-                        <a href="https://github.com/juan-roserodev/amantti-ecommerce-php" target="_blank"
-                            class="boton-repositorio-experiencia-profesional">Repositorio</a>
-                        <a href="https://github.com/juan-roserodev/amantti-ecommerce-php/blob/main/Proyect-Amantti/Videos/Video-Resultado-Final.mp4" target="_blank"
-                            class="boton-pagina-experiencia-profesional">Ver video</a>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 # Portafolio personal · Juan David Rosero Reyes
 
-Sitio web personal donde presento mi perfil, formación y proyectos. Está construido con HTML, CSS y JavaScript puro, con diseño **Mobile First**, y se publica automáticamente con **GitHub Pages** en la raíz de mi dominio de GitHub.
+Sitio web personal donde presento mi perfil, experiencia, formación y proyectos. Está construido con HTML, CSS y JavaScript puro, con diseño **Mobile First**, y se publica automáticamente con **GitHub Pages** en la raíz de mi dominio de GitHub.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -16,7 +16,7 @@ Sitio web personal donde presento mi perfil, formación y proyectos. Está const
 ## ✨ Secciones
 
 - **Presentación** con enlaces a GitHub, LinkedIn y descarga del CV.
-- **Sobre mí**, **habilidades** y **hobbies**.
+- **Sobre mí**, **experiencia laboral**, **habilidades** y **hobbies**.
 - **Formación académica**: SENA, Oracle Next Education (ONE) y aprendizaje autodidacta.
 - **Proyectos** con enlace al repositorio y a la demo de cada uno.
 - **Formulario de contacto** con validación en el navegador y envío mediante FormSubmit.
